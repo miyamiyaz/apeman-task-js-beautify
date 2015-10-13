@@ -1,0 +1,46 @@
+{
+  "name": "apeman-task-js-beautify",
+  "version": "1.0.0",
+  "description": "Beautify code written in javascript.",
+  "main": "lib",
+  "scripts": {
+    "test": "./ci/test.js"
+  },
+  "repository": "miyazakijunichi/apeman-task-js-beautify",
+  "keywords": [
+    "apeman",
+    "task"
+  ],
+  "author": {
+    "email": "miyazakijunichi@realglobe.jp",
+    "name": "Junichi Miyazaki",
+    "url": "https://github.com/miyazakijunichi/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miyazakijunichi/apeman-task-js-beautify/issues"
+  },
+  "homepage": "https://github.com/miyazakijunichi/apeman-task-js-beautify#readme",
+  "dependencies": {
+    "argx": "*",
+    "async": "^1.4.2",
+    "expandglob": "^1.0.1",
+    "js-beautify": "^1.5.10",
+    "objnest": "*",
+    "underscore": "^1.8.3",
+    "writeout": "^1.2.1"
+  },
+  "devDependencies": {
+    "ape-covering": "*",
+    "ape-releasing": "*",
+    "ape-reporting": "*",
+    "ape-tasking": "*",
+    "ape-testing": "*",
+    "ape-tmpl": "*",
+    "ape-updating": "*",
+    "coz": "*",
+    "coz-tmpl": "*",
+    "injectmock": "*",
+    "sharegit": "*"
+  }
+}
