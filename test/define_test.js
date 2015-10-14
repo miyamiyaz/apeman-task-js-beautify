@@ -19,7 +19,7 @@ exports.tearDown = function (done) {
 };
 
 exports['Define and run'] = function (test) {
-    var task = define({});
+    var task = define([], {});
     test.ok(task);
     var context = {
         verbose: false,
