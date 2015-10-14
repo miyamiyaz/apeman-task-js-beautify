@@ -80,11 +80,15 @@ module.exports = {
     $pkg: {/*...*/},
     $tasks: {
         // Define your own task.
-        'my-task-01': require('apeman-task-js-beautify')({
+        'my-task-01': require('apeman-task-js-beautify')('some/pattern/**/*.js', {
             //Options
+            beautifyOptions: {
+                'indent_size': 4
+            }
         })
     }
 };
+
 ```
 
 Then,
@@ -103,6 +107,9 @@ Options
 
 | Key | Type | Default | Description |
 | --- | ---- | --- | --- |
+|ignoreError|bool|false|ignore error|
+|ignore|string[]&#124;string|[]|file patterns to ignore|
+|beautifyOptions|object|{}|options for [js-beautify](https://github.com/beautify-web/js-beautify)|
 
 
 <!-- Section from "doc/readme/03.Options.md.hbs" End -->
