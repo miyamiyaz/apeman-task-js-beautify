@@ -1,6 +1,6 @@
 {
   "name": "apeman-task-js-beautify",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Beautify code written in javascript.",
   "main": "lib",
   "scripts": {
